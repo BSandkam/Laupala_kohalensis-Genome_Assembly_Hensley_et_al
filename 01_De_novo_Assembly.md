@@ -13,6 +13,12 @@ compared the resulting builds rather than accepting defaults blindly.
 
 Reference: https://hifiasm.readthedocs.io/en/latest/
 
+> **Version note.** This assembly was run with **hifiasm 0.19.8-r603** (Dec 2023). Earlier
+> notes referred to "v0.7" — that is the version tag in the *test-data download URL* below
+> (`releases/download/v0.7/chr11-2M.fa.gz`), not the assembler version, and predates HiFi
+> support entirely. The `v0`…`v4` in the run names are build labels for the parameter
+> sweep, not versions. See [docs/VERSIONS.md](docs/VERSIONS.md).
+
 ---
 
 ## Prep — install hifiasm
