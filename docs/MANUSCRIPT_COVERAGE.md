@@ -15,7 +15,7 @@ manuscript but not documented as code.
 |---|:---:|---|
 | DNA extraction (NEB Monarch kit) | n/a | wet-lab; not code |
 | PacBio Revio, 4,919,653 HiFi reads, 144 Gb | ✅ | data; reads are input to [01](../01_De_novo_Assembly.md) |
-| hifiasm, parameter-sensitivity rounds | ⚠️ | [01](../01_De_novo_Assembly.md) documents **5 builds** (v0 default + v1–v4). Manuscript says "**four** separate rounds." Reconcile the wording: four parameter *variants* on top of the default, or state five builds. |
+| hifiasm, parameter-sensitivity rounds | ✅ | [01](../01_De_novo_Assembly.md) documents **5 builds** (v0 default + v1–v4). Manuscript says "**four** separate rounds." Reconcile the wording: four parameter *variants* on top of the default, or state five builds. | Wording has been reconciled to reflect 5 rounds.
 | BlobTools contamination screening | ✅ | [02](../02_Filter_Contaminants.md) |
 | Inspector structural repair | ✅ | [04](../04_Correct_Contigs.md) (commands now merged from the annotation notes) |
 | Linkage-map anchoring, 500 N separators | ✅ | [05](../05_Scaffolding_via_LinkageMaps.md); 500 bp `N` gaps confirmed in the AGP |
