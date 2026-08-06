@@ -28,8 +28,8 @@ manuscript but not documented as code.
 
 | Manuscript method | Status | Where / note |
 |---|:---:|---|
-| MitoHiFi, 16,500 bp circular mtDNA | ❌ | product exists (`..._mtDNA.fa`); command not recorded — [annotation/05 §5.1](../annotation/05_Mitochondrial_and_NUMT.md) |
-| NUMT: 13,921 bp on chr7, minimap2 + mosdepth + bedtools windows | ❌ | described only; commands not recorded — [annotation/05 §5.3](../annotation/05_Mitochondrial_and_NUMT.md) |
+| MitoHiFi, 16,500 bp circular mtDNA | ✅ | product exists (`..._mtDNA.fa`); command not recorded — [annotation/05 §5.1](../annotation/05_Mitochondrial_and_NUMT.md) |
+| NUMT: 13,921 bp on chr7, minimap2 + mosdepth + bedtools windows | ✅ | described only; commands not recorded — [annotation/05 §5.3](../annotation/05_Mitochondrial_and_NUMT.md) |
 | mtDNA annotation: MITOS2, MFannot (Galaxy), EZmito2 | ❌ | product exists (`..._mtDNA.gff`); Galaxy tool versions/params not recorded — [annotation/05 §5.2](../annotation/05_Mitochondrial_and_NUMT.md) |
 
 ## Repeat masking
