@@ -48,12 +48,12 @@ visualisation via EZmito2 (Cucini et al. 2021).
 **Evidence in repo:** `final_ACTRWJ_Kohalensis_corrected_man_scaffolds_mtDNA.gff` (the
 mitochondrial annotation, present as a zipped GFF in the annotation repo).
 
-These were run through the **Galaxy web platform**, so there may be no command line to
-record — in that case, document the Galaxy workflow/tool versions and parameters instead.
+These were run through the ** various web platforms**, so there are no command line to
+records. Instead we provide links to the webistes used.
 
 ```text
-# TODO: record MITOS2 / MFannot Galaxy tool versions and parameter settings, and the
-# GenBank-to-GFF3 conversion step referenced in the annotation README.
+Link to MFannot: https://megasun.bch.umontreal.ca/apps/mfannotweb/
+Link to EZmito2, tool EZmap: http://ezmito.unisi.it/ezmap
 ```
 
 ## 5.3) NUMT detection
