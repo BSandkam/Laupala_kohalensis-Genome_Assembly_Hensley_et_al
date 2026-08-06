@@ -64,12 +64,28 @@ was detected by aligning the mitochondrial sequence to the nuclear genome with m
 bedtools-generated sliding windows (a coverage-based check that the region is nuclear, not
 a second copy of the true mitochondrion).
 
-**Not yet in repo.** The tools are standard; the commands should be reconstructable but are
-not recorded, so they are left as a TODO rather than guessed at.
-
 ```sh
-# TODO: record the minimap2 alignment of mtDNA -> nuclear genome, the bedtools makewindows
-# call, and the mosdepth command used to confirm the chr7 NUMT.
+export PATH=/programs/minimap2-2.30:$PATH
+minimap2 -t 40 -ax map-hifi --secondary=no ../Kohalensis_corrected_man_scaffolds_mtDNA.fa /home/nh392/genome_v2/02_Remove_Contam/Kohalensis.CleanedReads.fastq > kohalensis_mtDNA.hifi.mapped.bam 
+
+samtools sort -@ 60 kohalensis_mtDNA.hifi.mapped.bam -o kohalensis_mtDNA.hifi.sorted.bam
+samtools index -@ 60 kohalensis_mtDNA.hifi.sorted.bam
+
+### Doing mapping procedure to the genome without the mtDNA as a comparison in the drop in read coverage
+
+export PATH=/programs/minimap2-2.30:$PATH
+minimap2 -t 60 -ax map-hifi --secondary=no ./Kohalensis_corrected_man_scaffolds.fa /home/nh392/genome_v2/02_Remove_Contam/Kohalensis.CleanedReads.fastq | samtools sort -@ 60 -o kohalensis_NOmtdna.hifi.sorted.bam --write-index - &
+
+## first I am making sliding windows using CUT and BEDTOOLS (windows are 1000 bp with 500 bp overlap)
+
+cut f1,2 samtools_inde.fai > kohalensis.genome
+bedtools makewindows -g kohalensis.genome -w 1000 -s 500 > kohalensis.sliding_windows
+
+## then I will use these files along with mosdepth to calculate the coverage for genome with and without the mtDNA to see it chr7 (and specifically the NUMT region) falls to the same as the background average as the genome
+
+/programs/mosdepth-0.3.11/mosdepth --by /workdir/Hensley/genome_finalize/scaffold_final/genome_with_mtDNA/Kohalensis_corrected_man_scaffolds_mtDNA.sliding_windows --mapq 20 --threads 60 kohalensis_mtDNA_sliding_window /workdir/Hensley/genome_finalize/scaffold_final/genome_with_mtDNA/numt_remapping/kohalensis_mtDNA.hifi.sorted.bam
+
+/programs/mosdepth-0.3.11/mosdepth --by /workdir/Hensley/genome_finalize/scaffold_final/genome_without_mtDNA/Kohalensis_corrected_man_scaffolds.sliding_windows --mapq 20 --threads 60 kohalensis_sliding_window /workdir/Hensley/genome_finalize/scaffold_final/genome_without_mtDNA/kohalensis_NOmtdna.hifi.sorted.bam
 ```
 
 ---
