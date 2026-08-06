@@ -1,0 +1,126 @@
+##gff-version 3
+##sequence-region atg000015l_rotated 1 16500
+atg000015l_rotated	custom	source	1	16500	.	+	.	ID=source-129;organism=Laupala kohalensis;mol_type=genomic DNA;organelle=mitochondrion;is_circular=true;transl_table=5
+atg000015l_rotated	mitos2	gene	1	66	.	+	.	ID=gene-1;Name=tRNA-Phe;locus_tag=ACTRWJ_00001
+atg000015l_rotated	mitos2	tRNA	1	66	.	+	.	ID=trna-2;Parent=gene-1;Name=tRNA-Phe;product=tRNA-Phe
+atg000015l_rotated	mitos2	exon	1	66	.	+	.	ID=exon-3;Parent=trna-2
+atg000015l_rotated	mitos2	gene	69	135	.	+	.	ID=gene-4;Name=tRNA-Asn;locus_tag=ACTRWJ_00002
+atg000015l_rotated	mitos2	tRNA	69	135	.	+	.	ID=trna-5;Parent=gene-4;Name=tRNA-Asn;product=tRNA-Asn
+atg000015l_rotated	mitos2	exon	69	135	.	+	.	ID=exon-6;Parent=trna-5
+atg000015l_rotated	mitos2	gene	136	203	.	+	.	ID=gene-7;Name=tRNA-Arg;locus_tag=ACTRWJ_00003
+atg000015l_rotated	mitos2	tRNA	136	203	.	+	.	ID=trna-8;Parent=gene-7;Name=tRNA-Arg;product=tRNA-Arg
+atg000015l_rotated	mitos2	exon	136	203	.	+	.	ID=exon-9;Parent=trna-8
+atg000015l_rotated	mitos2	gene	204	268	.	+	.	ID=gene-10;Name=tRNA-Glu;locus_tag=ACTRWJ_00004
+atg000015l_rotated	mitos2	tRNA	204	268	.	+	.	ID=trna-11;Parent=gene-10;Name=tRNA-Glu;product=tRNA-Glu
+atg000015l_rotated	mitos2	exon	204	268	.	+	.	ID=exon-12;Parent=trna-11
+atg000015l_rotated	mitos2	gene	263	332	.	-	.	ID=gene-13;Name=tRNA-Arg2;locus_tag=ACTRWJ_00005
+atg000015l_rotated	mitos2	tRNA	263	332	.	-	.	ID=trna-14;Parent=gene-13;Name=tRNA-Arg2;product=tRNA-Arg2
+atg000015l_rotated	mitos2	exon	263	332	.	-	.	ID=exon-15;Parent=trna-14
+atg000015l_rotated	mitos2	gene	333	396	.	-	.	ID=gene-16;Name=tRNA-Ala;locus_tag=ACTRWJ_00006
+atg000015l_rotated	mitos2	tRNA	333	396	.	-	.	ID=trna-17;Parent=gene-16;Name=tRNA-Ala;product=tRNA-Ala
+atg000015l_rotated	mitos2	exon	333	396	.	-	.	ID=exon-18;Parent=trna-17
+atg000015l_rotated	mitos2	gene	395	748	.	-	.	ID=gene-19;Name=NAD3;locus_tag=ACTRWJ_00007
+atg000015l_rotated	mitos2	mRNA	395	748	.	-	.	ID=mrna-20;Parent=gene-19;locus_tag=ACTRWJ_00007;product=NAD dehydrogenase subunit 3
+atg000015l_rotated	mitos2	exon	395	748	.	-	.	ID=exon-21;Parent=mrna-20
+atg000015l_rotated	mitos2	CDS	395	748	.	-	0	ID=cds-22;Parent=mrna-20;Name=NAD3;product=NAD dehydrogenase subunit 3
+atg000015l_rotated	mitos2	gene	576	647	.	+	.	ID=gene-23;Name=tRNA-Ser;locus_tag=ACTRWJ_00008
+atg000015l_rotated	mitos2	tRNA	576	647	.	+	.	ID=trna-24;Parent=gene-23;Name=tRNA-Ser;product=tRNA-Ser
+atg000015l_rotated	mitos2	exon	576	647	.	+	.	ID=exon-25;Parent=trna-24
+atg000015l_rotated	mitos2	gene	749	814	.	-	.	ID=gene-26;Name=tRNA-Gly;locus_tag=ACTRWJ_00009
+atg000015l_rotated	mitos2	tRNA	749	814	.	-	.	ID=trna-27;Parent=gene-26;Name=tRNA-Gly;product=tRNA-Gly
+atg000015l_rotated	mitos2	exon	749	814	.	-	.	ID=exon-28;Parent=trna-27
+atg000015l_rotated	mitos2	gene	813	1604	.	-	.	ID=gene-29;Name=COX3;em_BRITE=ko00000,ko00001,ko00002,ko03029;em_COG_cat=C;em_GOs=GO:0005575,GO:0005622,GO:0005623,GO:0005737,GO:0005739,GO:0005740,GO:0005743,GO:0008150,GO:0008535,GO:0009987,GO:0016020,GO:0016043,GO:0017004,GO:0019866,GO:0022607,GO:0031090,GO:0031966,GO:0031967,GO:0031975,GO:0032991,GO:0034622,GO:0043226,GO:0043227,GO:0043229,GO:0043231,GO:0043933,GO:0044085,GO:0044422,GO:0044424,GO:0044425,GO:0044429,GO:0044444,GO:0044446,GO:0044464,GO:0045277,GO:0065003,GO:0070069,GO:0070469,GO:0071840,GO:0098796,GO:0098803;em_KEGG_Module=M00154;em_KEGG_Pathway=ko00190,ko01100,ko04260,ko04714,ko04932,ko05010,ko05012,ko05016,map00190,map01100,map04260,map04714,map04932,map05010,map05012,map05016;em_KEGG_TC=3.D.4.11,3.D.4.7,3.D.4.8;em_KEGG_ko=ko:K02262;em_OGs=COG1845@1|root,KOG4664@2759|Eukaryota,39ASV@33154|Opisthokonta,3BF9J@33208|Metazoa,3CUZX@33213|Bilateria,420NY@6656|Arthropoda,3SM4Z@50557|Insecta,44XZ9@7147|Diptera,45F7R@7148|Nematocera;em_PFAMs=COX3;em_Preferred_name=COX3;em_desc=Subunits I, II and III form the functional core of the enzyme complex;em_evalue=6.36e-114;em_max_annot_lvl=33208|Metazoa;em_score=372.0;em_target=7176.CPIJ040083-PA;em_tcov=98.5;locus_tag=ACTRWJ_00010
+atg000015l_rotated	mitos2	mRNA	813	1604	.	-	.	ID=mrna-30;Parent=gene-29;locus_tag=ACTRWJ_00010;product=cytochrome c oxidase subunit 3
+atg000015l_rotated	mitos2	exon	813	1604	.	-	.	ID=exon-31;Parent=mrna-30
+atg000015l_rotated	mitos2	CDS	813	1604	.	-	0	ID=cds-32;Parent=mrna-30;Name=COX3;product=cytochrome c oxidase subunit 3
+atg000015l_rotated	mitos2	gene	1601	2287	.	-	.	ID=gene-33;Name=ATP6;em_BRITE=ko00000,ko00001,ko00002,ko03029;em_COG_cat=C;em_GOs=GO:0000276,GO:0003674,GO:0003824,GO:0005215,GO:0005575,GO:0005622,GO:0005623,GO:0005737,GO:0005739,GO:0005740,GO:0005743,GO:0005753,GO:0006091,GO:0006119,GO:0006139,GO:0006163,GO:0006164,GO:0006725,GO:0006753,GO:0006754,GO:0006793,GO:0006796,GO:0006807,GO:0006810,GO:0006811,GO:0006812,GO:0006839,GO:0006996,GO:0007005,GO:0007006,GO:0007007,GO:0007275,GO:0007568,GO:0008150,GO:0008152,GO:0008324,GO:0008340,GO:0008553,GO:0009058,GO:0009117,GO:0009123,GO:0009124,GO:0009126,GO:0009127,GO:0009141,GO:0009142,GO:0009144,GO:0009145,GO:0009150,GO:0009152,GO:0009156,GO:0009161,GO:0009165,GO:0009167,GO:0009168,GO:0009199,GO:0009201,GO:0009205,GO:0009206,GO:0009259,GO:0009260,GO:0009987,GO:0010259,GO:0015075,GO:0015077,GO:0015078,GO:0015318,GO:0015399,GO:0015405,GO:0015662,GO:0015672,GO:0015985,GO:0015986,GO:0016020,GO:0016043,GO:0016310,GO:0016462,GO:0016469,GO:0016787,GO:0016817,GO:0016818,GO:0016887,GO:0017111,GO:0017144,GO:0018130,GO:0019438,GO:0019637,GO:0019693,GO:0019725,GO:0019829,GO:0019866,GO:0022804,GO:0022853,GO:0022857,GO:0022890,GO:0031090,GO:0031966,GO:0031967,GO:0031975,GO:0032501,GO:0032502,GO:0032991,GO:0033177,GO:0034220,GO:0034641,GO:0034654,GO:0036442,GO:0040011,GO:0042407,GO:0042592,GO:0042623,GO:0042625,GO:0042626,GO:0042776,GO:0043226,GO:0043227,GO:0043229,GO:0043231,GO:0043492,GO:0044237,GO:0044238,GO:0044249,GO:0044271,GO:0044281,GO:0044422,GO:0044424,GO:0044425,GO:0044429,GO:0044444,GO:0044446,GO:0044455,GO:0044464,GO:0044769,GO:0045259,GO:0045263,GO:0046034,GO:0046390,GO:0046483,GO:0046716,GO:0046907,GO:0046933,GO:0048856,GO:0051179,GO:0051234,GO:0051641,GO:0051649,GO:0055085,GO:0055086,GO:0060249,GO:0061024,GO:0065007,GO:0065008,GO:0070050,GO:0071704,GO:0071840,GO:0072521,GO:0072522,GO:0090407,GO:0090662,GO:0098655,GO:0098660,GO:0098662,GO:0098796,GO:0098798,GO:0098800,GO:0099131,GO:0099132,GO:1901135,GO:1901137,GO:1901293,GO:1901360,GO:1901362,GO:1901564,GO:1901566,GO:1901576,GO:1902600,GO:1990542;em_KEGG_Module=M00158;em_KEGG_Pathway=ko00190,ko01100,ko04714,ko05010,ko05012,ko05016,map00190,map01100,map04714,map05010,map05012,map05016;em_KEGG_TC=3.A.2.1;em_KEGG_ko=ko:K02126;em_OGs=COG0356@1|root,KOG4665@2759|Eukaryota,38D9B@33154|Opisthokonta,3BKF8@33208|Metazoa,3CY1J@33213|Bilateria,421T9@6656|Arthropoda,3SP42@50557|Insecta,452VJ@7147|Diptera,45E6G@7148|Nematocera;em_PFAMs=ATP-synt_A;em_Preferred_name=ATP6;em_desc=Mitochondrial membrane ATP synthase (F(1)F(0) ATP synthase or Complex V) produces ATP from ADP in the presence of a proton gradient across the membrane which is generated by electron transport complexes of the respiratory chain. F-type ATPases consist of two structural domains, F(1) - containing the extramembraneous catalytic core and F(0) - containing the membrane proton channel, linked together by a central stalk and a peripheral stalk. During catalysis, ATP synthesis in the catalytic domain of F(1) is coupled via a rotary mechanism of the central stalk subunits to proton translocation. Key component of the proton channel;em_evalue=6.143e-73;em_max_annot_lvl=33208|Metazoa;em_score=252.0;em_target=43151.ADAC010715-PA;em_tcov=99.6;locus_tag=ACTRWJ_00011
+atg000015l_rotated	mitos2	mRNA	1601	2287	.	-	.	ID=mrna-34;Parent=gene-33;locus_tag=ACTRWJ_00011;product=ATP synthase F0 subunit a
+atg000015l_rotated	mitos2	exon	1601	2287	.	-	.	ID=exon-35;Parent=mrna-34
+atg000015l_rotated	mitos2	CDS	1601	2287	.	-	0	ID=cds-36;Parent=mrna-34;Name=ATP6;product=ATP synthase F0 subunit a
+atg000015l_rotated	mitohifi	gene	2320	2433	.	-	.	ID=gene-37;Name=ATP8;locus_tag=ACTRWJ_00012
+atg000015l_rotated	mitohifi	mRNA	2320	2433	.	-	.	ID=mrna-38;Parent=gene-37;locus_tag=ACTRWJ_00012;product=ATP synthase F0 subunit 8
+atg000015l_rotated	mitohifi	exon	2320	2433	.	-	.	ID=exon-39;Parent=mrna-38
+atg000015l_rotated	mitohifi	CDS	2320	2433	.	-	0	ID=cds-40;Parent=mrna-38;Name=ATP8;product=ATP synthase F0 subunit 8
+atg000015l_rotated	mitos2	gene	2434	2500	.	-	.	ID=gene-41;Name=tRNA-Asp;locus_tag=ACTRWJ_00013
+atg000015l_rotated	mitos2	tRNA	2434	2500	.	-	.	ID=trna-42;Parent=gene-41;Name=tRNA-Asp;product=tRNA-Asp
+atg000015l_rotated	mitos2	exon	2434	2500	.	-	.	ID=exon-43;Parent=trna-42
+atg000015l_rotated	mitos2	gene	2501	2570	.	-	.	ID=gene-44;Name=tRNA-Lys;locus_tag=ACTRWJ_00014
+atg000015l_rotated	mitos2	tRNA	2501	2570	.	-	.	ID=trna-45;Parent=gene-44;Name=tRNA-Lys;product=tRNA-Lys
+atg000015l_rotated	mitos2	exon	2501	2570	.	-	.	ID=exon-46;Parent=trna-45
+atg000015l_rotated	mitos2	gene	2551	3249	.	-	.	ID=gene-47;Name=COX2;locus_tag=ACTRWJ_00015
+atg000015l_rotated	mitos2	mRNA	2551	3249	.	-	.	ID=mrna-48;Parent=gene-47;locus_tag=ACTRWJ_00015;product=cytochrome c oxidase subunit 2
+atg000015l_rotated	mitos2	exon	2551	3249	.	-	.	ID=exon-49;Parent=mrna-48
+atg000015l_rotated	mitos2	CDS	2551	3249	.	-	0	ID=cds-50;Parent=mrna-48;Name=COX2;product=cytochrome c oxidase subunit 2
+atg000015l_rotated	mitos2	gene	3251	3316	.	-	.	ID=gene-51;Name=tRNA-Leu;locus_tag=ACTRWJ_00016
+atg000015l_rotated	mitos2	tRNA	3251	3316	.	-	.	ID=trna-52;Parent=gene-51;Name=tRNA-Leu;product=tRNA-Leu
+atg000015l_rotated	mitos2	exon	3251	3316	.	-	.	ID=exon-53;Parent=trna-52
+atg000015l_rotated	mitos2	gene	3312	4775	.	-	.	ID=gene-54;Name=COX1;locus_tag=ACTRWJ_00017
+atg000015l_rotated	mitos2	mRNA	3312	4775	.	-	.	ID=mrna-55;Parent=gene-54;locus_tag=ACTRWJ_00017;product=cytochrome c oxidase subunit 1
+atg000015l_rotated	mitos2	exon	3312	4775	.	-	.	ID=exon-56;Parent=mrna-55
+atg000015l_rotated	mitos2	CDS	3312	4775	.	-	0	ID=cds-57;Parent=mrna-55;Name=COX1;product=cytochrome c oxidase subunit 1
+atg000015l_rotated	mitos2	gene	4849	4915	.	+	.	ID=gene-58;Name=tRNA-Tyr;locus_tag=ACTRWJ_00018
+atg000015l_rotated	mitos2	tRNA	4849	4915	.	+	.	ID=trna-59;Parent=gene-58;Name=tRNA-Tyr;product=tRNA-Tyr
+atg000015l_rotated	mitos2	exon	4849	4915	.	+	.	ID=exon-60;Parent=trna-59
+atg000015l_rotated	mitos2	gene	4919	4983	.	+	.	ID=gene-61;Name=tRNA-Cys;locus_tag=ACTRWJ_00019
+atg000015l_rotated	mitos2	tRNA	4919	4983	.	+	.	ID=trna-62;Parent=gene-61;Name=tRNA-Cys;product=tRNA-Cys
+atg000015l_rotated	mitos2	exon	4919	4983	.	+	.	ID=exon-63;Parent=trna-62
+atg000015l_rotated	mitos2	gene	4976	5043	.	-	.	ID=gene-64;Name=tRNA-Ter;locus_tag=ACTRWJ_00020
+atg000015l_rotated	mitos2	tRNA	4976	5043	.	-	.	ID=trna-65;Parent=gene-64;Name=tRNA-Ter;product=tRNA-Ter
+atg000015l_rotated	mitos2	exon	4976	5043	.	-	.	ID=exon-66;Parent=trna-65
+atg000015l_rotated	mitos2	gene	5043	6122	.	-	.	ID=gene-67;Name=NAD2;locus_tag=ACTRWJ_00021
+atg000015l_rotated	mitos2	mRNA	5043	6122	.	-	.	ID=mrna-68;Parent=gene-67;locus_tag=ACTRWJ_00021;product=NADH dehydrogenase subunit 2
+atg000015l_rotated	mitos2	exon	5043	6122	.	-	.	ID=exon-69;Parent=mrna-68
+atg000015l_rotated	mitos2	CDS	5043	6122	.	-	0	ID=cds-70;Parent=mrna-68;Name=NAD2;product=NADH dehydrogenase subunit 2
+atg000015l_rotated	mitos2	gene	6069	6137	.	-	.	ID=gene-71;Name=tRNA-Met;locus_tag=ACTRWJ_00022
+atg000015l_rotated	mitos2	tRNA	6069	6137	.	-	.	ID=trna-72;Parent=gene-71;Name=tRNA-Met;product=tRNA-Met
+atg000015l_rotated	mitos2	exon	6069	6137	.	-	.	ID=exon-73;Parent=trna-72
+atg000015l_rotated	mitos2	gene	7082	7150	.	+	.	ID=gene-74;Name=tRNA-Gln;locus_tag=ACTRWJ_00023
+atg000015l_rotated	mitos2	tRNA	7082	7150	.	+	.	ID=trna-75;Parent=gene-74;Name=tRNA-Gln;product=tRNA-Gln
+atg000015l_rotated	mitos2	exon	7082	7150	.	+	.	ID=exon-76;Parent=trna-75
+atg000015l_rotated	mitos2	gene	7170	7238	.	-	.	ID=gene-77;Name=tRNA-Ile;locus_tag=ACTRWJ_00024
+atg000015l_rotated	mitos2	tRNA	7170	7238	.	-	.	ID=trna-78;Parent=gene-77;Name=tRNA-Ile;product=tRNA-Ile
+atg000015l_rotated	mitos2	exon	7170	7238	.	-	.	ID=exon-79;Parent=trna-78
+atg000015l_rotated	mitos2	gene	7915	7981	.	+	.	ID=gene-80;Name=tRNA-Val;locus_tag=ACTRWJ_00025
+atg000015l_rotated	mitos2	tRNA	7915	7981	.	+	.	ID=trna-81;Parent=gene-80;Name=tRNA-Val;product=tRNA-Val
+atg000015l_rotated	mitos2	exon	7915	7981	.	+	.	ID=exon-82;Parent=trna-81
+atg000015l_rotated	mitos2	gene	8015	8777	.	+	.	ID=gene-83;Name=12S ribosomal RNA;locus_tag=ACTRWJ_00026
+atg000015l_rotated	mitos2	rRNA	8015	8777	.	+	.	ID=rrna-84;Parent=gene-83;Name=12S ribosomal RNA;product=12S ribosomal RNA
+atg000015l_rotated	mitos2	exon	8015	8777	.	+	.	ID=exon-85;Parent=rrna-84
+atg000015l_rotated	mitos2	gene	8822	10151	.	+	.	ID=gene-86;Name=16S ribosomal RNA;locus_tag=ACTRWJ_00027
+atg000015l_rotated	mitos2	rRNA	8822	10151	.	+	.	ID=rrna-87;Parent=gene-86;Name=16S ribosomal RNA;product=16S ribosomal RNA
+atg000015l_rotated	mitos2	exon	8822	10151	.	+	.	ID=exon-88;Parent=rrna-87
+atg000015l_rotated	mitos2	gene	10112	10174	.	+	.	ID=gene-89;Name=tRNA-Leu2;locus_tag=ACTRWJ_00028
+atg000015l_rotated	mitos2	tRNA	10112	10174	.	+	.	ID=trna-90;Parent=gene-89;Name=tRNA-Leu2;product=tRNA-Leu2
+atg000015l_rotated	mitos2	exon	10112	10174	.	+	.	ID=exon-91;Parent=trna-90
+atg000015l_rotated	mitos2	gene	10169	11116	.	+	.	ID=gene-92;Name=NAD1;locus_tag=ACTRWJ_00029
+atg000015l_rotated	mitos2	mRNA	10169	11116	.	+	.	ID=mrna-93;Parent=gene-92;locus_tag=ACTRWJ_00029;product=NADH dehydrogenase subunit 1
+atg000015l_rotated	mitos2	exon	10169	11116	.	+	.	ID=exon-94;Parent=mrna-93
+atg000015l_rotated	mitos2	CDS	10169	11116	.	+	0	ID=cds-95;Parent=mrna-93;Name=NAD1;product=NADH dehydrogenase subunit 1
+atg000015l_rotated	mitos2	gene	11153	11218	.	-	.	ID=gene-96;Name=tRNA-Ser2;locus_tag=ACTRWJ_00030
+atg000015l_rotated	mitos2	tRNA	11153	11218	.	-	.	ID=trna-97;Parent=gene-96;Name=tRNA-Ser2;product=tRNA-Ser2
+atg000015l_rotated	mitos2	exon	11153	11218	.	-	.	ID=exon-98;Parent=trna-97
+atg000015l_rotated	mitos2	gene	11242	12360	.	-	.	ID=gene-99;Name=CYTB;em_COG_cat=C;em_GOs=GO:0000003,GO:0001666,GO:0003674,GO:0003824,GO:0005488,GO:0005575,GO:0005622,GO:0005623,GO:0005737,GO:0005739,GO:0005740,GO:0005743,GO:0005746,GO:0005750,GO:0006091,GO:0006119,GO:0006122,GO:0006139,GO:0006163,GO:0006725,GO:0006753,GO:0006793,GO:0006796,GO:0006807,GO:0006810,GO:0006811,GO:0006812,GO:0006950,GO:0006970,GO:0006972,GO:0006979,GO:0007275,GO:0007276,GO:0007283,GO:0007584,GO:0008121,GO:0008150,GO:0008152,GO:0009055,GO:0009117,GO:0009123,GO:0009126,GO:0009141,GO:0009144,GO:0009150,GO:0009161,GO:0009167,GO:0009199,GO:0009205,GO:0009259,GO:0009266,GO:0009408,GO:0009605,GO:0009628,GO:0009636,GO:0009651,GO:0009719,GO:0009725,GO:0009987,GO:0009991,GO:0010033,GO:0010035,GO:0010038,GO:0010243,GO:0014070,GO:0015672,GO:0015980,GO:0015988,GO:0015990,GO:0016020,GO:0016021,GO:0016310,GO:0016491,GO:0016679,GO:0016681,GO:0017144,GO:0019637,GO:0019693,GO:0019866,GO:0019953,GO:0020037,GO:0022414,GO:0022900,GO:0022904,GO:0031090,GO:0031099,GO:0031100,GO:0031224,GO:0031300,GO:0031301,GO:0031304,GO:0031305,GO:0031667,GO:0031966,GO:0031967,GO:0031975,GO:0032501,GO:0032502,GO:0032504,GO:0032592,GO:0032991,GO:0033273,GO:0033590,GO:0033762,GO:0034220,GO:0034641,GO:0036293,GO:0036296,GO:0042221,GO:0042493,GO:0042538,GO:0042773,GO:0042775,GO:0043226,GO:0043227,GO:0043229,GO:0043231,GO:0043434,GO:0044237,GO:0044238,GO:0044281,GO:0044422,GO:0044424,GO:0044425,GO:0044429,GO:0044444,GO:0044446,GO:0044455,GO:0044464,GO:0044703,GO:0044877,GO:0045275,GO:0045333,GO:0045471,GO:0046034,GO:0046483,GO:0046677,GO:0046686,GO:0046688,GO:0046689,GO:0046906,GO:0048037,GO:0048038,GO:0048039,GO:0048232,GO:0048513,GO:0048609,GO:0048731,GO:0048856,GO:0050896,GO:0051179,GO:0051234,GO:0051592,GO:0051704,GO:0055085,GO:0055086,GO:0055093,GO:0055114,GO:0070069,GO:0070469,GO:0070482,GO:0071704,GO:0072521,GO:0097159,GO:0097305,GO:0098573,GO:0098655,GO:0098660,GO:0098662,GO:0098796,GO:0098798,GO:0098800,GO:0098803,GO:1901135,GO:1901360,GO:1901363,GO:1901564,GO:1901652,GO:1901698,GO:1901700,GO:1902494,GO:1902600,GO:1990204;em_KEGG_Module=M00151,M00152;em_KEGG_Pathway=ko00190,ko01100,ko02020,ko04260,ko04714,ko04932,ko05010,ko05012,ko05016,map00190,map01100,map02020,map04260,map04714,map04932,map05010,map05012,map05016;em_KEGG_ko=ko:K00412;em_OGs=COG1290@1|root,KOG4663@2759|Eukaryota,38FBZ@33154|Opisthokonta,3BCGI@33208|Metazoa,3CZ4H@33213|Bilateria,41ZKH@6656|Arthropoda,3SJNY@50557|Insecta,451FJ@7147|Diptera;em_PFAMs=Cytochrom_B_C,Cytochrome_B;em_Preferred_name=CYTB;em_desc=Component of the ubiquinol-cytochrome c reductase complex (complex III or cytochrome b-c1 complex) that is part of the mitochondrial respiratory chain. The b-c1 complex mediates electron transfer from ubiquinol to cytochrome c. Contributes to the generation of a proton gradient across the mitochondrial membrane that is then used for ATP synthesis;em_evalue=8.122e-167;em_max_annot_lvl=33208|Metazoa;em_score=531.0;em_target=7227.FBpp0100186;em_tcov=97.6;locus_tag=ACTRWJ_00031
+atg000015l_rotated	mitos2	mRNA	11224	12360	.	-	.	ID=mrna-100;Parent=gene-99;locus_tag=ACTRWJ_00031;product=cytochrome b
+atg000015l_rotated	mitos2	exon	11224	12360	.	-	.	ID=exon-101;Parent=mrna-100
+atg000015l_rotated	mitos2	CDS	11224	12360	.	-	0	ID=cds-102;Parent=mrna-100;Name=CYTB;product=cytochrome b
+atg000015l_rotated	mitos2	gene	12899	12963	.	+	.	ID=gene-107;Name=tRNA-Pro;locus_tag=ACTRWJ_00033
+atg000015l_rotated	mitos2	tRNA	12899	12963	.	+	.	ID=trna-108;Parent=gene-107;Name=tRNA-Pro;product=tRNA-Pro
+atg000015l_rotated	mitos2	exon	12899	12963	.	+	.	ID=exon-109;Parent=trna-108
+atg000015l_rotated	mitos2	gene	12964	13028	.	-	.	ID=gene-110;Name=tRNA-Thr;locus_tag=ACTRWJ_00034
+atg000015l_rotated	mitos2	tRNA	12964	13028	.	-	.	ID=trna-111;Parent=gene-110;Name=tRNA-Thr;product=tRNA-Thr
+atg000015l_rotated	mitos2	exon	12964	13028	.	-	.	ID=exon-112;Parent=trna-111
+atg000015l_rotated	mitos2	gene	13038	13331	.	+	.	ID=gene-113;Name=NAD4L;em_BRITE=ko00000,ko00001,ko00002,ko01000,ko03029;em_COG_cat=C;em_EC=1.6.5.3;em_GOs=GO:0003674,GO:0003824,GO:0003954,GO:0005575,GO:0005622,GO:0005623,GO:0005737,GO:0005739,GO:0005740,GO:0005743,GO:0005746,GO:0005747,GO:0006091,GO:0006119,GO:0006120,GO:0006139,GO:0006163,GO:0006725,GO:0006753,GO:0006793,GO:0006796,GO:0006807,GO:0008137,GO:0008150,GO:0008152,GO:0009117,GO:0009123,GO:0009126,GO:0009141,GO:0009144,GO:0009150,GO:0009161,GO:0009167,GO:0009199,GO:0009205,GO:0009259,GO:0009987,GO:0015980,GO:0016020,GO:0016310,GO:0016491,GO:0016651,GO:0016655,GO:0017144,GO:0019637,GO:0019693,GO:0019866,GO:0022900,GO:0022904,GO:0030964,GO:0031090,GO:0031966,GO:0031967,GO:0031975,GO:0032991,GO:0034641,GO:0042773,GO:0042775,GO:0043226,GO:0043227,GO:0043229,GO:0043231,GO:0044237,GO:0044238,GO:0044281,GO:0044422,GO:0044424,GO:0044425,GO:0044429,GO:0044444,GO:0044446,GO:0044455,GO:0044464,GO:0045271,GO:0045333,GO:0046034,GO:0046483,GO:0050136,GO:0055086,GO:0055114,GO:0070469,GO:0071704,GO:0072521,GO:0098796,GO:0098798,GO:0098800,GO:0098803,GO:1901135,GO:1901360,GO:1901564,GO:1902494,GO:1990204;em_KEGG_Module=M00142;em_KEGG_Pathway=ko00190,ko01100,ko04714,ko04723,ko05012,map00190,map01100,map04714,map04723,map05012;em_KEGG_Reaction=R11945;em_KEGG_TC=3.D.1.6;em_KEGG_ko=ko:K03882;em_KEGG_rclass=RC00061;em_OGs=KOG4669@1|root,KOG4669@2759|Eukaryota,3A6ST@33154|Opisthokonta,3BTQI@33208|Metazoa,3D9QQ@33213|Bilateria,4289Q@6656|Arthropoda,3SRUM@50557|Insecta,4547U@7147|Diptera,45J9N@7148|Nematocera;em_PFAMs=Oxidored_q2;em_Preferred_name=NAD4L;em_desc=Core subunit of the mitochondrial membrane respiratory chain NAD dehydrogenase (Complex I) that is believed to belong to the minimal assembly required for catalysis. Complex I functions in the transfer of electrons from NAD to the respiratory chain. The immediate electron acceptor for the enzyme is believed to be ubiquinone;em_evalue=3.079e-06;em_max_annot_lvl=33208|Metazoa;em_score=51.0;em_target=7165.AGAP028383-PA;em_tcov=66.3;locus_tag=ACTRWJ_00035
+atg000015l_rotated	mitos2	mRNA	13038	13331	.	+	.	ID=mrna-114;Parent=gene-113;locus_tag=ACTRWJ_00035;product=NADH dehydrogenase subunit 4L
+atg000015l_rotated	mitos2	exon	13038	13331	.	+	.	ID=exon-115;Parent=mrna-114
+atg000015l_rotated	mitos2	CDS	13038	13331	.	+	0	ID=cds-116;Parent=mrna-114;Name=NAD4L;product=NADH dehydrogenase subunit 4L
+atg000015l_rotated	mitos2	gene	13325	14668	.	+	.	ID=gene-117;Name=NAD4;locus_tag=ACTRWJ_00036
+atg000015l_rotated	mitos2	mRNA	13325	14668	.	+	.	ID=mrna-118;Parent=gene-117;locus_tag=ACTRWJ_00036;product=NADH dehydrogenase subunit 4
+atg000015l_rotated	mitos2	exon	13325	14668	.	+	.	ID=exon-119;Parent=mrna-118
+atg000015l_rotated	mitos2	CDS	13325	14668	.	+	0	ID=cds-120;Parent=mrna-118;Name=NAD4;product=NADH dehydrogenase subunit 4
+atg000015l_rotated	mitos2	gene	14668	14731	.	+	.	ID=gene-121;Name=tRNA-His;locus_tag=ACTRWJ_00037
+atg000015l_rotated	mitos2	tRNA	14668	14731	.	+	.	ID=trna-122;Parent=gene-121;Name=tRNA-His;product=tRNA-His
+atg000015l_rotated	mitos2	exon	14668	14731	.	+	.	ID=exon-123;Parent=trna-122
+atg000015l_rotated	mitos2	gene	14738	16468	.	+	.	ID=gene-124;Name=NAD5;locus_tag=ACTRWJ_00038
+atg000015l_rotated	mitos2	mRNA	14738	16468	.	+	.	ID=mrna-125;Parent=gene-124;locus_tag=ACTRWJ_00038;product=NADH dehydrogenase subunit 5
+atg000015l_rotated	mitos2	exon	14738	16468	.	+	.	ID=exon-126;Parent=mrna-125
+atg000015l_rotated	mitos2	CDS	14738	16468	.	+	0	ID=cds-127;Parent=mrna-125;Name=NAD5;product=NADH dehydrogenase subunit 5
