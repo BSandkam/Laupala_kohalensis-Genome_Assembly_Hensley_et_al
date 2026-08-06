@@ -95,4 +95,6 @@ The decorated annotation (`Lkohalensis_braker_combined.emapper.decorated.gff`) i
 annotation, in **corrected-contig coordinates**, that is lifted onto the scaffolds in
 [../06_Update_Gff.md](../06_Update_Gff.md).
 
+This is subsequently been modified manually and using the python script clean_dbxref_to_note.py to make it more user-friendly and is avaiable as annotation_with_gene_id.gff3.zip
+
 **Next:** [05_Mitochondrial_and_NUMT.md](05_Mitochondrial_and_NUMT.md)
