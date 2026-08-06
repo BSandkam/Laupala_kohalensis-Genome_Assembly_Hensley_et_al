@@ -94,9 +94,9 @@ bedtools makewindows -g kohalensis.genome -w 1000 -s 500 > kohalensis.sliding_wi
 
 | Sub-step | Product exists? | Commands recorded? |
 |----------|:---:|:---:|
-| MitoHiFi assembly | ✅ (`..._mtDNA.fa`) | ❌ |
+| MitoHiFi assembly | ✅ (`..._mtDNA.fa`) | ✅ |
 | MITOS2 / MFannot annotation | ✅ (`..._mtDNA.gff`) | ❌ (Galaxy — capture versions/params) |
-| NUMT detection | ⚠️ described only | ❌ |
+| NUMT detection | ✅ | ✅ |
 
 Filling these three in completes the manuscript-to-repo coverage; everything else the
 manuscript describes is now documented.
