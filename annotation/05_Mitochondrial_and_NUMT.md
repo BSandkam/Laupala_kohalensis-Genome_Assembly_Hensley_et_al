@@ -45,15 +45,23 @@ mummerplot -png nucmer.delta
 2017) and MFannot (Lang et al. 2023) via the Galaxy platform (Galaxy Community 2024), with
 visualisation via EZmito2 (Cucini et al. 2021).
 
-**Evidence in repo:** `final_ACTRWJ_Kohalensis_corrected_man_scaffolds_mtDNA.gff` (the
-mitochondrial annotation, present as a zipped GFF in the annotation repo).
+**Evidence in repo:** `annotation.with_gene_id.gff3.zip` (the
+genome annotation, present as a zipped GFF in the annotation repo, which contains the mtDNA annotation as well).
+
+**Evidence in repo:** `mito_combination.gff` (the
+mitochondrial genome annotation, present as a GFF in the annotation repo).
 
 These were run through the ** various web platforms**, so there are no command line to
 records. Instead we provide links to the webistes used.
 
 ```text
+
+Link to Mitos2: https://usegalaxy.org/root?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fmitos2%2Fmitos2%2F2.1.3%20galaxy0
 Link to MFannot: https://megasun.bch.umontreal.ca/apps/mfannotweb/
-Link to EZmito2, tool EZmap: http://ezmito.unisi.it/ezmap
+Link to EZmito2: tool EZmap: http://ezmito.unisi.it/ezmap
+
+Protein coding positions from mitoHifi, Mitos2, and MFannot were comapred manually using https://web.expasy.org/translate/ to verify translation validity, and manually combined into a verified annotation.
+
 ```
 
 ## 5.3) NUMT detection
