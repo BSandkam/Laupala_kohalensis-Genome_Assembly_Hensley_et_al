@@ -22,8 +22,21 @@ sequence.
 `Kohalensis_corrected_man_scaffolds_mtDNA.fa` (referenced in the BlobToolKit step of the
 annotation notes), i.e. the nuclear scaffolds with the mtDNA contig appended.
 
+The below commands were run on the Cornell BioHPC
 ```sh
-# TODO: record the exact MitoHiFi command (reference/closest species, -r reads, etc.).
+source /programs/miniconda3/bin/activate pbtk
+bam2fastq -o raw_reads m84094_231201_192252_s4.hifi_reads.default.bam m84094_231201_192252_s4.hifi_reads.unassigned.bam &
+conda deactivate
+
+gzip -d raw_reads.fastq.gz
+
+singularity run --bind $PWD --pwd $PWD /programs/mitohifi-3.0.0/mitohifi.sif mitohifi.py -r /home/nh392/genome_v2/Shaw-NH-15308_2023_12_01/l_kohalensis_hifi_raw_data_D01/hifi_reads/raw_reads.fastq -f NC_053543.1.fasta -g NC_053543.1.gb -t 15 -o 6 ##uses the invertebrate genetic code 
+
+## this produced a final mitogenome, but there are many hits in the raw reads. I am not sure which one aligns best. I can align it to the genome to see where it is best. #using mummer (nucmer) and gnuplot to produce the output
+#https://biohpc.cornell.edu/doc/alignment_exercise2.html
+export PATH=/programs/gnuplot-4.6.6/bin:$PATH
+nucmer -mum -p nucmer /home/nh392/genome_v2/kohalensis_15mar24/Kohalensis.purged.fa /local/workdir/Hensley/genome_compare/mitohifi/final_mitogenome.fasta 
+mummerplot -png nucmer.delta 
 ```
 
 ## 5.2) Mitochondrial annotation — MITOS2 / MFannot / EZmito2
