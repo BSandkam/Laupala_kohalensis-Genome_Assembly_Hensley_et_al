@@ -79,7 +79,6 @@ manuscript but not documented as code.
 
 2. **Add the Iso-seq lima/skera commands** to
    [annotation/02 §2.3](../annotation/02_Annotation_Transfer_and_Evidence.md).
-3. **Reconcile the final gene count** — 17,866 (notes) vs 17,670 (manuscript).
 5. **Pin the two `:latest` containers** (tetools, braker3) to digests — see
    [VERSIONS.md](VERSIONS.md).
 6. **Confirm the inferred bare-command versions** in [VERSIONS.md](VERSIONS.md) (blastn,
