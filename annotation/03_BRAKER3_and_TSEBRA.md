@@ -96,14 +96,6 @@ singularity exec -C \
   -o braker_combined
 ```
 
-Combined: **17,866 genes**.
-
-> [!NOTE]
-> The annotation notes report **17,866** combined genes here, while the manuscript reports
-> **17,670** final genes. The difference is most likely a filtering step applied after
-> TSEBRA (or a later re-run), but it is not recorded. This needs to be reconciled before
-> publication — see [../docs/MANUSCRIPT_COVERAGE.md](../docs/MANUSCRIPT_COVERAGE.md).
-
 ## 3.6) BUSCO of the final annotation
 
 ```sh
