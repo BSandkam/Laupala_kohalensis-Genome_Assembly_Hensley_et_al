@@ -42,6 +42,7 @@ to scaffold coordinates arithmetically.
 | `combined_library_Lko_ortho.lib.minlen50.nr.classified.fa` | Final custom repeat library (3,182 sequences) — included here |
 | `Lkohalensis_braker_combined.emapper.decorated.gff` | Functionally decorated annotation on corrected contigs — the input to [../06_Update_Gff.md](../06_Update_Gff.md) |
 | `Kohalensis_scaffolds.gff` | Final annotation lifted onto scaffold coordinates (produced in step 06) |
+| `annotation.with_gene_id.gff3.zip` | Final annotation after lifting over scaffold coordinates, manual cleaning, and fixing of dbxref notes. Available here in this repository. |
 
 The large result files (the full decorated annotation GFF and the hard-masked coordinate
 BED) are deposited with the genome under BioProject **PRJNA1306088** rather than committed
